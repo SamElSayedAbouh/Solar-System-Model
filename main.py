@@ -21,16 +21,13 @@ neptune = planets["NEPTUNE BARYCENTER"]
 PlanetData = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune]
 
 
-
-while settings.update:
-    for i in range(len(PlanetData)):
-        if settings.barycentric:
-            PlanetPos[i] = (PlanetData[i]-sun).at(t).position.au
-        else:
-            PlanetPos[i] = (PlanetData[i]).at(t).position.au
-
-
-
+def PosUpdate ():
+    while settings.update:
+        for i in range(len(PlanetData)):
+            if settings.barycentric:
+                PlanetPos[i] = (PlanetData[i]-sun).at(t).position.au
+            else:
+                PlanetPos[i] = (PlanetData[i]).at(t).position.au
 
 
 
