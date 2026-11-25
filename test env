@@ -1,0 +1,12 @@
+import main; import settings; from vpython import *
+
+scene.width = 1200   # Default is 640
+scene.height = 800   # Default is 400
+mercury = sphere(pos=vector(*main.PlanetPos[0]), radius=(1), color=color.red)
+scene.center = mercury.pos
+while True:
+    rate(1)
+    mercury.pos = mercury.pos +vector(1,1,1)
+
+
+
