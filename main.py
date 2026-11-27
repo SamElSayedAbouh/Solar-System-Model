@@ -21,9 +21,9 @@ sun = planets["SUN"]
 PlanetData = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, sun]
 s=0
 def PosUpdate ():
-    global s
-    s = s +10
-    t = ts.now() + s
+    # global s
+    # s = s +10
+    t = ts.now() 
     if settings.update:
         for i in range(len(PlanetData)):
             if settings.barycentric == False :
