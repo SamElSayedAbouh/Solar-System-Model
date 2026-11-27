@@ -1,6 +1,4 @@
 # Solar-System-Model
-design document https://docs.google.com/document/d/17XGd-dfHguT3hxP2oR0r1knyFjYrAXGexV5dxVS2suc/edit?usp=sharing
-
 
 Tasks accomplished:
 Tracker now works in real time
@@ -33,8 +31,6 @@ The app would connect to the orrery and display the changes on the orrery itself
 
 
 
-
-
 On AI usage:
 
 minimal AI usage was used in aid with this project. No code was AI generated.
@@ -45,3 +41,16 @@ Comparing CAD's
 Comparing a belt versus versus gear system
 Finding resources to learn mechanical engineering fundamentals.
 Help brainstorm a way to scale down the solar system.
+
+
+
+
+Copyright © 2026 Sam El-Sayed Abouh. All rights reserved.
+
+This project is licensed under the PolyForm Noncommercial License 1.0.0.
+
+You are welcome to view, download, modify, and redistribute the source code for purposes permitted under the license.
+
+Commercial use outside the permissions granted by the license requires prior written permission from the copyright holder.
+
+See LICENSE.TXT for the full terms.
